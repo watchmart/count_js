@@ -1,0 +1,28 @@
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+} */
+#numberLbl{
+    display: block;
+    text-align: center;
+    
+    font-size: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#buttonDiv{
+    text-align: center;
+   
+}
+.buttons{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(82, 82, 212);
+    cursor: pointer;
+    transition: background-color .25s;    
+
+}
+.buttons:hover{
+    background-color: rgb(157, 157, 243);
+}
